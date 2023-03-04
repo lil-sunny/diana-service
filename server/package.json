@@ -1,0 +1,24 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "server": "nodemon src/app.js",
+        "compile": "tsc ./*/*.ts"
+    },
+    "author": "lil sunny",
+    "license": "ISC",
+    "dependencies": {
+        "@types/express": "^4.17.13",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "mysql2": "^2.3.0",
+        "nodemon": "^2.0.12",
+        "request": "^2.88.2",
+        "sequelize": "^6.6.5",
+        "typescript": "^4.5.0-dev.20210907",
+        "vuex": "^3.6.2"
+    }
+}
